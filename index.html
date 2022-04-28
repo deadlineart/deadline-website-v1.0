@@ -25,9 +25,12 @@
 name="Artist_Proposals" 
 method="POST" 
 enctype="multipart-form/data"
+netlify-honeypot="bot-field" 
 data-netlify="true" 
 action=/path
 id="artistProposals">
+
+<input type="hidden" name="form-name" value="contact" />
 
 <div><input type="text" name="first_name" id="artistFirstName" placeholder="first name"></div>
 <div><input type="text" name="last_name"id="artistLastName" placeholder="last name"> </div>
