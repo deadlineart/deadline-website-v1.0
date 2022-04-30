@@ -32,12 +32,15 @@ body {
 
 a{
   color: #fafafa;
+  text-decoration: none
 }
 
-.logo{
-  background-image: ;
+.deadline-logo{
+  height: 50px;
 }
-
+.nav-links_shell{
+  display: flex;
+}
 
 
 
