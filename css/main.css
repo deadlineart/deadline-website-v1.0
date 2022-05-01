@@ -234,6 +234,7 @@ button a{
   color: black;
 }
 .upload-work{
+  background-color: #fafafa;
   font-size: 1.1rem;
   font-family: open-sans-condensed,sans-serif;
   font-weight: 600;
@@ -243,7 +244,12 @@ button a{
   height: 3rem;
   width: calc(75% - 20px);
   border: none;
-  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.upload-work a{
+  color: black;
 }
 .radio-style{
   font-size: 1.1rem;
