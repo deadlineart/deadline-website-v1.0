@@ -17,7 +17,9 @@
 <!-- --------------  navigation  ------------------ -->
 
 <div class="nav-links_shell">
-  <a href="index.html"><img src="/resources/skulls/skull_homelogo.png" class="deadline-logo"></a>
+  <div>
+    <a href="index.html"><img src="/resources/skulls/skull_homelogo.png" class="deadline-logo"></a>
+  </div>
   <div class="nav-links">
     <a href="submission-form.html" class="nav-link active-link">Submit Work</a>
     <a href="past-shows.html" class="nav-link">Past Shows</a>
@@ -28,61 +30,88 @@
 
 <!-- --------------  form  ------------------ -->
 
-<div>
-  <p>Deadline vol 3 is looking for new or unshown work. Please submit a proposal of a piece to be completed by July 16th (DEADLINE). There may be opportunity to display additional work, however you must submit a proposal for new or unshown work that will be the focal point of the allotted space.
-  </p>
-  <p>Please note -- Deadline is a one night only event that requires YOU (the artist) to install and take down your piece the same day. Quick and easy installation should be taken into consideration. Panels are available, It is up to the artist to provide additional structure and hanging hardware. More information will be availalbe upon acceptance.
-  </p>
-  <p><span>Location:</span> Southern Heights Brewery - Austin, TX</p>
-  <p><span>Date:</span> July 16, 2022</p>
-  <p><span>Q&A Session:</span> May, 17 2022 @ 7pm cst via Zoom</p>
-  <p>You can rsvp for the Q&A below and submit any questions you may have. If you have additional questions after submitting this form, you can email them to deadlineartatx@gmail.com.
-  </p>
-</div>
+<section class="submit-work">
+  <div class="skull-graphic">
+    <img src="/resources/graphics/Call for Submissions Banner.png" class="skull_side" alt="">
+  </div>
 
-<form 
-name="artistProposals" 
-method="POST" 
-enctype="multipart-form/data"
-data-netlify="true" 
-id="artistProposals">
+    <section class="submission-details_shell">
+      <div>
+        <p class="submission-details"><span class="bold">Upcoming show:</span><br>July 16, 2022</p>
+        <br>
+        <br>
+        <p class="submission-details"><span class="bold">Location:</span> </p>
+        <img src="/resources/logos/logo_southern-heights.svg" alt="southern_heights_brewery_logo" class="logo_southern-heights">
+        <p class="submission-details">6014 Techni Center Dr.<br>Austin, TX</p>
+        <br>
+        <br>
+        <p class="submission-details"><span class="bold">Q&A Session:</span><br>May, 17 2022 @ 7pm cst</p>
+        <p class="submission-details">via Zoom</p>
+        <br>
+        <p class="submission-details">Please rsvp for the Q&A and submit any questions you may have. If you have additional questions after submitting this form, you can email them to:
+        </p>          
+        <br>
+        <p class="submission-details">deadlineartatx@gmail.com
+        </p>
+      </div>
+    </section>
 
-<div><input type="text" name="first_name" id="artistFirstName" placeholder="first name"></div>
-<div><input type="text" name="last_name"id="artistLastName" placeholder="last name"> </div>
-<div><input type="email" name="email" id="email" placeholder="email address"></div>
+    <section class="form_shell">
+      <div class="bodycopy_shell">
+        <p class="bodycopy">Deadline vol 3 is looking for new or unshown work. Please submit a proposal for a piece of work to be completed by July 16, 2022 (DEADLINE). There may be an opportunity to display additional work, however you must submit a proposal for new or unshown work that will be the focal point of the allotted space.
+        </p>
+        <p class="bodycopy"><span class="bold">Please note -- </span>Deadline is a one night only event that requires YOU (the artist) to install and take down your piece the same day. Quick and easy installation should be taken into consideration. Wall panels are provided at the time of the show. It is up to the artist to provide additional structure and hanging hardware. More information will be availalbe upon acceptance.
+        </p>
+      </div>
 
+      <form 
+      name="artistProposals" 
+      method="POST" 
+      enctype="multipart-form/data"
+      data-netlify="true" 
+      id="artistProposals">
 
+      <div class="display-flex">
+        <div class="half"><input type="text" name="form_style first_name" id="artistFirstName" placeholder="first name"></div>
+        <div class="half-right"><input type="text" name="last_name"id="artistLastName" placeholder="last name"> </div>
+      </div>
+      <div><input type="email" name="email" id="email" placeholder="email address"></div>
+      <div><input type="url" name="website" id="website" placeholder="website"></div>
+      <div><input type="text" name="handle" id="handle" placeholder="instagram. Enter '@instagramhandle'"></div>
+      <div><input type="text" name="worktitle" id="worktitle" placeholder="title of work"></div>      
+      <div><input type="text" name="workdimensions" id="workdimensions" placeholder="rough dimensions of work"></div>        
+      <div><input type="text" name="workmedium" id="workmedium" placeholder="medium of work"></div> 
+      <div><textarea form="artistProposals" type="text" name="workdescription" id="workdescription" placeholder="work description"></textarea>
+      <br>
+      <div>Please upload at least 2 work samples. Work samples do not have to be related to your proposal, but should reflect your capabilities as an artist.</div>
+      <button class="button-style"><a href="https://forms.gle/ye7SLMN19cT4rqvAA">Upload work samples</a></button>
+      <br>
+      <br>
 
+      <div>
+        <div>Will you be attending the Q&A?</div>
+        <br>
+        <div class="display-flex">
+          <input type="radio" name="rsvp" id="rsvpy" class="radio-style">
+          <p class="radio-style-label">plan to attend</p>  
+        </div>
+        <div class="display-flex">
+          <input type="radio" name="rsvp" id="rsvpn" class="radio-style">
+          <p class="radio-style-label">will not make it</p>
+        </div>
+        <div><textarea form="artistProposals" type="text" name="questions" id="questions" placeholder="questions"></textarea>
+          <br>
+          <br>
+          <br>
+      </div>
+      <div><button type="submit" class="button-style submit-proposal">submit DEADLINE</button></div>
+      <!-- <div><input type="file" name="file1" id="file1" placeholder="upload file" accept="image/png, image/jpeg"></div>
+      <div><input type="file" name="file2" id="file2" placeholder="upload file"></div> -->
+      <!-- <div data-netlify-recaptcha="false"></div> -->
+      </form>
+    </section>
 
-
-
-<div><a href="https://forms.gle/ye7SLMN19cT4rqvAA">Upload art samples here</a></div>
-<div><button type="submit">submit</button></div>
-<!-- <div><input type="file" name="file1" id="file1" placeholder="upload file" accept="image/png, image/jpeg"></div>
-<div><input type="file" name="file2" id="file2" placeholder="upload file"></div> -->
-<!-- <div data-netlify-recaptcha="false"></div> -->
-</form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</section>
 
 
 </main>
