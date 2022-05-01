@@ -41,7 +41,7 @@ main{
 	z-index: 5;
   height: fit-content;
   padding: 30px 40px;
-	margin-bottom: 50vh;
+	margin-bottom: 45vh;
   background-color: #131415;
   overflow-x: hidden;
   }
@@ -145,14 +145,6 @@ a{
   margin-top: 30vw;
   padding-left: 2vw;
   height: 100vh;
-}
-.submission-details{
-  font-family: open-sans-condensed,sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 2.5vh;
-  line-height: 3vh;
-  width: 16vw;
 }
 .submission-details{
   font-family: open-sans-condensed,sans-serif;
@@ -315,11 +307,43 @@ footer{
   padding: 30px 40px;
   overflow-x: hidden;
   }
-
-
-.copyright{
-  font-size: 2vh;
+.footer-content_shell{
+  display: flex;
+  margin-bottom: 7vh;
 }
+.footer-contact_shell{
+  display: flex;
+}
+.footer-showdetails{
+  font-size: 1.8vh;
+  line-height: 2.25vh;
+  font-family: open-sans, sans-serif;
+  margin-right: 7vw;
+}
+.footer-bold{
+  background-color: #131415;
+  color: #fafafa;
+  font-weight: 600;
+  margin-top: 45px;
+  margin-bottom: 5px;
+  margin-left: -3px;
+  padding: 3px 3px;
+}
+.logo_southern-heights-footer{
+  width: 12vw;
+  opacity: .9;
+  margin: 5px 0 10px;
+}
+.instagram{
+  width: 2vh;
+  height: 2vh;
+  margin-right: 1vh;
+  margin-top: calc(45px + .5vh);
+}
+.copyright{
+  font-size: 1.5vh;
+}
+
 
 
 /* --------------------  breakpoints  --------------------- */
