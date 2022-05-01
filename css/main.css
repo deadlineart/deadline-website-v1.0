@@ -112,7 +112,7 @@ a{
 .art{
   font-size: 5vh;
   font-weight: 300;
-  margin-bottom: 15vh;
+  margin-bottom: 12vh;
 }
 .headline{
   margin-top: 5vh;
@@ -130,7 +130,7 @@ a{
   line-height: 2.5vh;
 }
 .show-details{
-  font-size: 2vh;
+  font-size: 2.5vh;
 }
 
 /* --------------------  forms  --------------------- */
@@ -139,7 +139,7 @@ a{
 }
 .submission-details_shell{
   width: 22vw;
-  margin-top: 55vw;
+  margin-top: 30vw;
   padding-left: 2vw;
   height: 100vh;
 }
@@ -147,8 +147,8 @@ a{
   font-family: open-sans-condensed,sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 2vh;
-  line-height: 2.5vh;
+  font-size: 2.5vh;
+  line-height: 3vh;
   width: 16vw;
 }
 .logo_southern-heights{
@@ -235,6 +235,7 @@ button a{
 }
 .upload-work{
   background-color: #fafafa;
+  color: black;
   font-size: 1.1rem;
   font-family: open-sans-condensed,sans-serif;
   font-weight: 600;
